@@ -1,0 +1,25 @@
+.rodape{
+    height: 30vh;
+}
+
+.rodape_info{
+    width: 60%;
+}
+
+.rodape_redes{
+    width: 30%;
+}
+
+.rodape_redes ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape_redes a{
+    width: 50px;
+}
+
+.rodape_info_item ul li:first-child{
+    font-weight: bold;
+}

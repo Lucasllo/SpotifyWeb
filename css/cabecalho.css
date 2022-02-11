@@ -1,0 +1,42 @@
+
+.cabecalho_caixa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho, .rodape{
+    background-color: var(--azul);
+    padding: 1rem 0;
+}
+
+.cabecalho_logo{
+    width: 5rem;
+}
+
+.cabecalho_menu{
+    width: 40%;
+}
+
+.cabecalho_menu ul, .rodape_info>ul, .rodape_caixa{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho_menu-item{
+    font-size: 1.5rem;
+}
+
+.cabecalho_menu-item a, .rodape_info_item a{
+    color: var(--cinza-claro);
+    padding: .5rem;
+}
+
+.cabecalho_menu-item a {
+    font-weight: 600;
+    transition: 300ms;
+}
+
+.cabecalho_menu-item a:hover {
+    color: var(--cinza);
+}

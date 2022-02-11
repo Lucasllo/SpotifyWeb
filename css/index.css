@@ -1,0 +1,20 @@
+.principal{
+    background-color: #293B5F;
+    padding: 1rem;
+}
+
+.principal_caixa{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.principal_caixa section{
+    width: 420px;
+    height: 350px;
+    background-color: var(--cinza);
+    border-radius: 50px;
+    margin: 1rem;
+}

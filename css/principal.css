@@ -11,7 +11,7 @@
     height: 100%;
 }
 
-.principal_caixa section{
+.principal_caixa li{
     width: 420px;
     height: 244px;
     background-color: var(--cinza);

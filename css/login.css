@@ -1,0 +1,78 @@
+.login{
+    display: flex;
+    justify-content: center;
+    background-color: #293B5F;
+    padding: 1rem;
+}
+
+.cadastro_caixa{
+    color: var(--azul-escuro);
+    background-color: var(--cinza);
+    border-radius: 10px;
+    padding: 2rem;
+    font-size: 1.25rem;
+    min-width: 420px;
+    max-width: 700px;
+}
+
+.cadastro_caixa a{
+    font-weight: 600;
+    transition: 300ms;
+}
+
+.cadastro_caixa a:hover{
+    color: var(--azul-escuro);
+}
+
+.cadastro_caixa h3{
+    font-weight: bolder;
+}
+
+.login_formulario_caixa{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0;
+    position: relative;
+}
+
+.login_formulario_caixa label{
+    font-weight: 400;
+    position: absolute;
+    bottom: 5px;
+    left: .5rem;
+    transition: all 200ms;
+}
+
+.login_formulario_caixa input{
+    border: none;
+    background-color: var(--cinza);
+    border-bottom: 1px solid var(--azul-escuro);
+    padding: 1.2rem .5rem .5rem .5rem ;
+    outline: none;
+}
+
+.login_formulario_caixa input:focus + label, .login_formulario_caixa  input:not(:placeholder-shown) + label{
+    font-size: 1rem;
+    bottom: 25px;
+}
+
+.login_formulario_enviar{
+    text-align: center;
+}
+
+.login__formulario--botao{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: white;
+    border: none;
+    background-color: var(--azul);
+    padding: 1.3rem 3rem ;
+    border-radius: 50px;
+    transition: 300ms;
+}
+
+.login__formulario--botao:hover{
+    background-color: var(--azul-escuro);
+    cursor: pointer;
+}

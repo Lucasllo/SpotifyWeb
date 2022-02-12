@@ -1,25 +1,35 @@
-
 .cabecalho_caixa{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.cabecalho, .rodape{
+.cabecalho{
     background-color: var(--azul);
     padding: 1rem 0;
 }
 
 .cabecalho_logo{
-    width: 5rem;
+    width: 8rem;
+    margin-bottom: 2rem;
+}
+
+.cabecalho_logo a span{
+    font-size: 2rem;
+    color: var(--cinza-claro);
+    font-family: 'Rowdies', cursive;
+    transition: 300ms;
 }
 
 .cabecalho_menu{
     width: 40%;
 }
 
-.cabecalho_menu ul, .rodape_info>ul, .rodape_caixa{
+.cabecalho_menu ul{
     display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -27,7 +37,7 @@
     font-size: 1.5rem;
 }
 
-.cabecalho_menu-item a, .rodape_info_item a{
+.cabecalho_menu-item a{
     color: var(--cinza-claro);
     padding: .5rem;
 }
@@ -37,6 +47,26 @@
     transition: 300ms;
 }
 
-.cabecalho_menu-item a:hover {
+.cabecalho_menu-item a:hover, .cabecalho_logo a:hover span {
     color: var(--cinza);
+}
+
+@media screen and (min-width:  768px) {
+	.cabecalho{
+        padding: 1rem 4rem;
+    }
+    
+    .cabecalho_caixa{
+        flex-direction: row;
+    }
+
+    .cabecalho_menu>ul {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width:  1024px) {
+	.cabecalho{
+        padding: 1rem 9rem;
+    }
 }

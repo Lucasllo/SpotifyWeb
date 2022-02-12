@@ -1,8 +1,13 @@
 :root{
     --azul-escuro: #0F044C;
+    --azul-meio-escuro:#3a4d72;
     --azul: #141E61;
     --cinza: #787A91;
     --cinza-claro: #EEEEEE;
+    --amarelo: #f5d476;
+    --verde: #b1ed75;
+    --vermelho: #ff80a9;
+
 }
 
 body{

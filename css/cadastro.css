@@ -1,13 +1,13 @@
 .cadastro{
     display: flex;
     justify-content: center;
-    background-color: #293B5F;
+    background-color: var(--azul-meio-escuro);
     padding: 1rem;
 }
 
 .cadastro_caixa{
     color: var(--azul-escuro);
-    background-color: var(--cinza);
+    background-color: var(--cinza-claro);
     border-radius: 10px;
     padding: 2rem;
     font-size: 1.25rem;
@@ -25,7 +25,7 @@
 
 .formulario fieldset input{
     border: none;
-    background-color: var(--cinza);
+    background-color: var(--cinza-claro);
     border-bottom: 1px solid var(--azul-escuro);
     padding: 1.2rem .5rem .5rem .5rem ;
     outline: none;

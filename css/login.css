@@ -56,7 +56,7 @@
     bottom: 25px;
 }
 
-.login_formulario_enviar{
+.login_formulario_enviar, .login_formulario_info{
     text-align: center;
 }
 

@@ -7,7 +7,7 @@
 
 .login_caixa{
     color: var(--azul-escuro);
-    background-color: var(--cinza);
+    background-color: var(--cinza-claro);
     border-radius: 10px;
     padding: 2rem;
     font-size: 1.25rem;

@@ -45,7 +45,7 @@
 
 .login_formulario_caixa input{
     border: none;
-    background-color: var(--cinza);
+    background-color: var(--cinza-claro);
     border-bottom: 1px solid var(--azul-escuro);
     padding: 1.2rem .5rem .5rem .5rem ;
     outline: none;

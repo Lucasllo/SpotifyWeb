@@ -1,5 +1,5 @@
 .principal{
-    background-color: #293B5F;
+    background-color: var(--azul-meio-escuro);
     padding: 1rem;
 }
 
@@ -9,14 +9,28 @@
     justify-content: space-around;
     flex-wrap: wrap;
     height: 100%;
+    text-align: center;
 }
 
 .principal_caixa li{
     width: 420px;
     height: 244px;
-    background-color: var(--cinza);
     border-radius: 25px;
     margin: 1rem;
+    padding: 1rem;
+    color: var(--azul-escuro);
+}
+
+.principal_gratuito{
+    background-color: var(--amarelo);
+}
+
+.principal_pago{
+    background-color: var(--verde);
+}
+
+.principal_familia{
+    background-color: var(--vermelho);
 }
 
 @media screen and (min-width:  768px) {

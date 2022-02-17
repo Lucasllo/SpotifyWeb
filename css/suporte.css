@@ -1,0 +1,42 @@
+.faq{
+    padding: 1rem 10rem;
+    text-align: center;
+}
+
+.faq th, .faq td{
+    text-align: left;
+    padding: .7rem 1rem;
+    vertical-align: top;
+    line-height: 1.3rem;
+} 
+
+.pesquisa{
+    padding: 1rem;
+}
+
+.pesquisa_caixa{
+    width: 100%;
+}
+
+.pesquisa_caixa div{
+    position: relative;
+    display: flex;
+    margin: 0 0 0 .8rem;
+}
+
+.pesquisa h3, .pesquisa p{
+    padding: .3rem 0;
+}
+
+.pesquisa_caixa div img{
+    position: absolute;
+    width: 20px;
+    top: 8px;
+}
+
+.pesquisa_caixa input{
+    padding: 10px 10px 10px 40px;
+    border: none;
+    border-bottom: 1px solid var(--azul-escuro);
+    width: 100%;
+}

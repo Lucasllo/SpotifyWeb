@@ -11,12 +11,15 @@
 }
 
 .cabecalho_logo{
-    width: 8rem;
-    margin-bottom: 2rem;
+    width: 5rem;
+}
+
+.cabecalho_logo a{
+    width: 100%;
 }
 
 .cabecalho_logo a span{
-    font-size: 2rem;
+    font-size: 1.27rem;
     color: var(--cinza-claro);
     font-family: 'Rowdies', cursive;
     transition: 300ms;
@@ -34,7 +37,7 @@
 }
 
 .cabecalho_menu-item{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .cabecalho_menu-item a{
@@ -52,8 +55,12 @@
 }
 
 @media screen and (min-width:  768px) {
+    .cabecalho_menu{
+        width: 55%;
+    }
+
 	.cabecalho{
-        padding: 1rem 4rem;
+        padding: 1rem 8rem;
     }
     
     .cabecalho_caixa{
@@ -66,7 +73,11 @@
 }
 
 @media screen and (min-width:  1024px) {
+    .cabecalho_menu{
+        width: 40%;
+    }
+
 	.cabecalho{
-        padding: 1rem 9rem;
+        padding: 1rem 10rem;
     }
 }

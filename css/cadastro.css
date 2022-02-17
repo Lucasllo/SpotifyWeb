@@ -10,7 +10,7 @@
     background-color: var(--cinza-claro);
     border-radius: 10px;
     padding: 2rem;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     min-width: 420px;
     width: 700px;
 }
@@ -62,12 +62,12 @@ label{
 
 .cadastro_formulario_botao{
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: 200;
     color: white;
     border: none;
     background-color: var(--azul);
-    padding: 1.3rem 3rem ;
+    padding: 0.75rem 1.75rem;
     border-radius: 50px;
     transition: 300ms;
 }

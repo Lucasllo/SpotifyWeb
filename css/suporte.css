@@ -2,6 +2,7 @@
 .faq{
     padding: 1rem 10rem;
     text-align: center;
+    background-color: var(--cinza-claro);
 }
 
 .faq th, .faq td{
@@ -13,10 +14,13 @@
 
 .pesquisa{
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .pesquisa_caixa{
-    width: 100%;
+    width: 70%;
 }
 
 .pesquisa_caixa div{
@@ -40,4 +44,5 @@
     border: none;
     border-bottom: 1px solid var(--azul-escuro);
     width: 100%;
+    background-color: var(--cinza-claro);
 }

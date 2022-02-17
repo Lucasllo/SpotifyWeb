@@ -45,4 +45,5 @@
     border-bottom: 1px solid var(--azul-escuro);
     width: 100%;
     background-color: var(--cinza-claro);
+    outline: none;
 }

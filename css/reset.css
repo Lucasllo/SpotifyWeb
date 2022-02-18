@@ -8,7 +8,7 @@ ul,ol,li{
     list-style: none;
 }
 
-a{
+a, a:hover{
     display: inline-block;
     color: initial;
     text-decoration: none;

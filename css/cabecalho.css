@@ -51,7 +51,7 @@
 }
 
 .cabecalho_menu-item a:hover, .cabecalho_logo a:hover span {
-    color: var(--cinza);
+    color: var(--laranja);
 }
 
 @media screen and (min-width:  768px) {

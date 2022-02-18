@@ -30,11 +30,15 @@
 
 .rodape_info_item ul li:first-child{
     font-weight: bold;
-}
+}  
 
-.rodape_info_item a{
+.rodape_info_item a, .rodape_info_item ul li:first-child {
     color: var(--cinza-claro);
     padding: .5rem;
+}
+
+.rodape_info_item a:hover{
+    color: var(--laranja);
 }
 
 .rodape_caixa{

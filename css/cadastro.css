@@ -73,6 +73,6 @@ label{
 }
 
 .cadastro_formulario_botao:hover{
-    background-color: var(--azul-escuro);
+    background-color: var(--laranja-escuro);
     cursor: pointer;
 }

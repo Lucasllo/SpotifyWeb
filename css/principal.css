@@ -12,12 +12,18 @@
     text-align: center;
 }
 
-.principal_caixa1 li, .principal_caixa2 li, .principal_caixa3 li{
-    width: 420px;
+.principal_anuncio{
+    transition: 500ms;
     border-radius: 25px;
-    /* margin: 1rem;
-    padding: 1rem; */
     color: var(--azul-escuro);
+}
+
+.principal_anuncio:hover{
+    transform: scale(1.1,1.1);
+}
+
+.principal_anuncio, .principal_caixa1 a, .principal_caixa2 a, .principal_caixa3 a{
+    width: 100%;
 }
 
 .principal_pacote{
@@ -52,11 +58,24 @@
 	.principal{
         padding: 0 3rem 1rem 3rem;
     }
+    .principal_anuncio{
+        width: 420px;
+        
+    }
+    .principal_caixa1 a, .principal_caixa2 a, .principal_caixa3 a{
+        width: auto;
+    }
 }
 
 @media screen and (min-width:  1024px) {
 	.principal_caixa3 li{
         width: 100%;
+    }
+    .principal_anuncio{
+        width: 420px;
+    }
+    .principal_caixa1 a, .principal_caixa2 a, .principal_caixa3 a{
+        width: auto;
     }
 }
 
